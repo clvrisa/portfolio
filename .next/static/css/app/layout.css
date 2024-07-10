@@ -901,6 +901,10 @@ video {
   --tw-shadow-color: #4b5563;
   --tw-shadow: var(--tw-shadow-colored);
 }
+.shadow-gray-400 {
+  --tw-shadow-color: #9ca3af;
+  --tw-shadow: var(--tw-shadow-colored);
+}
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
