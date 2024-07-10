@@ -14,7 +14,7 @@ const HeroSection = () => {
             alt=""
             width={325}
             height={325}
-            className="rounded-full shadow-2xl"
+            className="rounded-full shadow-2xl shadow-gray-600"
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
