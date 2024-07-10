@@ -24,17 +24,32 @@ const HeroSection = () => {
             based in Roseville, CA. Striving to develop software built on the principles of
             simplicity, sustainability, and innovation.
           </p>
-          <Link
-            to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-rose-400 rounded shadow hover:bg-rose-500 cursor-pointer"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            Projects
-          </Link>
+          <div className="flex flex-col md:flex-row items-start space-y-4 md:space-y-0 md:space-x-4 mt-10">
+            <Link
+              to="projects"
+              className="text-neutral-100 font-semibold px-6 py-3 bg-rose-400 rounded shadow hover:bg-rose-500 cursor-pointer"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Projects
+            </Link>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              className="text-neutral-100 font-semibold px-6 py-3 bg-rose-400 rounded shadow hover:bg-rose-500 cursor-pointer"
+            >
+              Resume
+            </a>
+            <a
+              href="mailto:z.clarisa@yahoo.com"
+              className="text-neutral-100 font-semibold px-6 py-3 bg-rose-400 rounded shadow hover:bg-rose-500 cursor-pointer"
+            >
+              Email
+            </a>
+          </div>
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">

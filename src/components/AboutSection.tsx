@@ -40,7 +40,7 @@ const AboutSection = () => {
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
-            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+            <div className="flex flex-wrap flex-row mb-12 justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
                 return (
                   <p
