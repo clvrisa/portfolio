@@ -1,5 +1,12 @@
 import React from "react";
-import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
+import {
+  AiOutlineAccountBook,
+  AiOutlineBarChart,
+  AiOutlineBook,
+  AiOutlineGithub,
+  AiOutlineLinkedin,
+  AiOutlineMail,
+} from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -10,6 +17,13 @@ const Footer = () => {
           © 2024 Clarisa Zapata<a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
+          <a href="mailto:z.clarisa@yahoo.com" rel="noreferrer" target="_blank">
+            <AiOutlineMail
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+
           <a href="https://www.linkedin.com/in/clarisa-zapata/" rel="noreferrer" target="_blank">
             <AiOutlineLinkedin
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
@@ -19,6 +33,12 @@ const Footer = () => {
 
           <a href="https://github.com/clvrisa" rel="noreferrer" target="_blank">
             <AiOutlineGithub
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+          <a href="/resume.pdf" rel="noreferrer" target="_blank">
+            <AiOutlineBook
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />
