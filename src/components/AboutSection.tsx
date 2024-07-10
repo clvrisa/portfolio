@@ -1,56 +1,5 @@
 import React from "react";
-import Image from "next/image";
-import CodeSnippet from "./CodeSnippet";
-
-const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "React" },
-  { skill: "Node.js" },
-  { skill: "jQuery" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
-  { skill: "Material UI" },
-  { skill: "Styled Components" },
-  { skill: "REST API" },
-  { skill: "GraphQL" },
-  { skill: "Apollo Client" },
-  { skill: "Git" },
-  { skill: "GitLab" },
-  { skill: "GitHub" },
-  { skill: "GitHub Actions" },
-  { skill: "Terraform" },
-  { skill: "Jest" },
-  { skill: "Cypress" },
-  { skill: "AWS" },
-  { skill: "Google OAuth" },
-  { skill: "Wordpress" },
-  { skill: "Elementor" },
-];
-
-const codeString = ` // GetToKnowMe.tsx
-
-import React from 'react';
-
-const GetToKnowMe = () => {
-  return 
-    <div className="md:w-1/2 ">
-      <p>
-        Hi, my name is Clarisa and I am a{" "}
-        <span className="font-bold">{"highly ambitious"}</span>,
-        <span className="font-bold">{" self-motivated"}</span>, and
-        <span className="font-bold">{" driven"}</span> full-stack software engineer with a
-        <span className="font-bold">{" strong sense of urgency"}</span> based in Roseville,
-        CA.
-      </p>
-    </div>;
-};
-
-export default GetToKnowMe;
-
-`;
+import { skills } from "../../lib/data";
 
 const AboutSection = () => {
   return (
@@ -88,16 +37,8 @@ const AboutSection = () => {
               I am driven by a strong sense of urgency and a passion for creating innovative and
               efficient solutions to complex problems.
             </p>
-            {/* <br />
-            <p>
-              Throughout my career, I have honed my technical expertise and gained a deep
-              understanding of the entire software development lifecycle. My strong work ethic
-              drives me to consistently produce great results. I am genuinely excited to continue on
-              this new journey and career in Computer Science and Software Development.
-            </p> */}
           </div>
           <div className="text-center md:w-1/2 md:text-left">
-            {" "}
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
