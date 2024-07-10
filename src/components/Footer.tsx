@@ -22,7 +22,7 @@ const Footer = () => {
             />
           </a>
 
-          <a href="https://github.com/hqasmei" rel="noreferrer" target="_blank">
+          <a href="https://github.com/clvrisa" rel="noreferrer" target="_blank">
             <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
